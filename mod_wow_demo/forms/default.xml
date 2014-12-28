@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields>
+        <fieldset name="wow_demo" addfieldpath="/plugins/system/wow/fields/">
+            <field name="guild" class="input-small" type="text" default="" size="30" required="true" hint="MOD_WOW_DEMO_GUILD_LABEL" />
+            <field name="realm" class="input-small" type="realms" default="" size="30" required="true" hint="MOD_WOW_DEMO_REALM_LABEL" />
+            <field name="region" class="input-small" type="list" default="" required="true" hint="MOD_WOW_DEMO_REGION_LABEL">
+                <option value="">MOD_WOW_DEMO_REGION_LABEL</option>
+                <option value="us">USA</option>
+                <option value="eu">Europe</option>
+                <option value="kr">Korea</option>
+                <option value="tw">Taiwan</option>
+            </field>
+            <field name="locale" class="input-small" type="list" default="" required="true" hint="MOD_WOW_DEMO_LOCALE_LABEL">
+                <option value="">MOD_WOW_DEMO_LOCALE_LABEL</option>
+                <option value="en">English</option>
+                <option value="de">German</option>
+                <option value="fr">Français</option>
+                <option value="es">Español</option>
+                <option value="it">Italiano</option>
+                <option value="pt">Português</option>
+                <option value="ru">Русский</option>
+            </field>
+            <field name="link" class="input-small" type="list" default="wowhead.com" required="true" label="MOD_WOW_DEMO_LINK_LABEL">
+                <option value="">MOD_WOW_DEMO_LINK_LABEL</option>
+                <option value="wowhead.com">wowhead.com</option>
+                <option value="battle.net">battle.net</option>
+            </field>
+        </fieldset>
+    </fields>
+</form>

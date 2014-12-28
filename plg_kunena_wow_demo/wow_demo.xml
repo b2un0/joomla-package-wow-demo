@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="kunena" method="upgrade">
+    <name>Kunena - WoW Demo</name>
+    <author>Branko Wilhelm</author>
+    <creationDate>Dez 2014</creationDate>
+    <copyright>Copyright (c) 2014 - 2015 Branko Wilhelm. All rights reserved.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <authorEmail>branko.wilhelm@gmail.com</authorEmail>
+    <authorUrl>www.z-index.net</authorUrl>
+    <version>@REVSION@</version>
+    <description>replace dummy user with guild player</description>
+    <files>
+        <filename plugin="wow_demo">wow_demo.php</filename>
+        <filename>profile.php</filename>
+    </files>
+</extension>

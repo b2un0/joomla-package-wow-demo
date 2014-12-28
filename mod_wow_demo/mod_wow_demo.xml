@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="module" client="site" method="upgrade">
+    <name>WoW Demo</name>
+    <author>Branko Wilhelm</author>
+    <creationDate>Dez 2014</creationDate>
+    <copyright>Copyright (c) 2014 - 2015 Branko Wilhelm. All rights reserved.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <authorEmail>branko.wilhelm@gmail.com</authorEmail>
+    <authorUrl>www.z-index.net</authorUrl>
+    <version>@REVSION@</version>
+    <description>change demo site to your guild/realm/region/language</description>
+    <files>
+        <filename module="mod_wow_demo">mod_wow_demo.php</filename>
+        <filename>helper.php</filename>
+        <folder>forms</folder>
+        <folder>tmpl</folder>
+    </files>
+</extension>

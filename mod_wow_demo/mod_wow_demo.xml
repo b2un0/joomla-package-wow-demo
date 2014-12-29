@@ -15,4 +15,7 @@
         <folder>forms</folder>
         <folder>tmpl</folder>
     </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.mod_wow_demo.ini</language>
+    </languages>
 </extension>

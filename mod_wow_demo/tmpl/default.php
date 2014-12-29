@@ -8,8 +8,10 @@
  */
 
 defined('_JEXEC') or die;
+
+JHtml::_('jquery.framework');
 ?>
-<form action="<?php echo JRoute::_('index.php', true); ?>" method="post" id="wow_demo" class="form-inline">
+<form action="<?php echo JRoute::_('index.php'); ?>" method="post" id="wow_demo" class="form-inline">
 
     <?php if (!empty($guilds)) : ?>
         <div class="control-group">

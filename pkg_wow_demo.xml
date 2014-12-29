@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0" method="upgrade">
+    <name>WoW Demo Package</name>
+    <author>Branko Wilhelm</author>
+    <creationDate>Dez 2014</creationDate>
+    <packagename>wow</packagename>
+    <version>@REVISION@</version>
+    <url>http://www.z-index.net</url>
+    <packager>z-index development</packager>
+    <packagerurl>http://www.z-index.net</packagerurl>
+    <description>Joomla WoW Demo Extensions</description>
+    <files folder="packages">
+        <file type="module" id="wow_demo" client="site">mod_wow_demo.zip</file>
+        <file type="plugin" id="wow_demo" group="system">plg_system_wow_demo.zip</file>
+        <file type="plugin" id="wow_demo" group="kunena">plg_kunena_wow_demo.zip</file>
+    </files>
+</extension>

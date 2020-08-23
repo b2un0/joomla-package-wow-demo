@@ -3,12 +3,13 @@
     <name>WoW Demo Package</name>
     <author>Branko Wilhelm</author>
     <creationDate>Dez 2014</creationDate>
-    <packagename>wow</packagename>
+    <packagename>pkg_wow_demo</packagename>
     <version>@REVISION@</version>
-    <url>http://www.z-index.net</url>
+    <url>https://z-index.net</url>
     <packager>z-index development</packager>
-    <packagerurl>http://www.z-index.net</packagerurl>
+    <packagerurl>https://z-index.net</packagerurl>
     <description>Joomla WoW Demo Extensions</description>
+    <blockChildUninstall>true</blockChildUninstall>
     <files folder="packages">
         <file type="module" id="wow_demo" client="site">mod_wow_demo.zip</file>
         <file type="plugin" id="wow_demo" group="system">plg_system_wow_demo.zip</file>

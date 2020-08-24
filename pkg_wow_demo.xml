@@ -10,7 +10,7 @@
     <packagerurl>https://z-index.net</packagerurl>
     <description>Joomla WoW Demo Extensions</description>
     <blockChildUninstall>true</blockChildUninstall>
-    <files folder="packages">
+    <files folder=".">
         <file type="module" id="wow_demo" client="site">mod_wow_demo.zip</file>
         <file type="plugin" id="wow_demo" group="system">plg_system_wow_demo.zip</file>
         <file type="plugin" id="wow_demo" group="kunena">plg_kunena_wow_demo.zip</file>

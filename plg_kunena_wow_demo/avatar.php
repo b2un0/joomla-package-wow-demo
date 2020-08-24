@@ -35,7 +35,7 @@ class KunenaAvatarWoW_Demo extends KunenaAvatarWoW_Avatar
         shuffle($result->body->members);
 
         if (!$user->isAdmin()) {
-            $user->name = $result->body->members[rand(0, count($result->body->members) - 1)]->character->name;
+            $user->name = $result->body->members[random_int(0, count($result->body->members) - 1)]->character->name;
         }
 
         return parent::_getURL($user, $sizex, $sizey);

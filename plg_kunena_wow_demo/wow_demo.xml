@@ -11,6 +11,6 @@
     <description>replace dummy user with guild player</description>
     <files>
         <filename plugin="wow_demo">wow_demo.php</filename>
-        <filename>profile.php</filename>
+        <filename>avatar.php</filename>
     </files>
 </extension>
